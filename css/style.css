@@ -83,7 +83,8 @@
   }
   
   body{
-      margin: 0;
+      margin: auto;
+      max-width: 1440px;
   }
   
   @media (max-width: 768px) {
@@ -119,6 +120,7 @@
   header img{
     padding-top: 14px;
     height: 35px;
+    padding-inline-start: 50px;
   }
   
   .Navigation {    
@@ -676,7 +678,6 @@
     display: flex;
     flex-direction: column;
     transition-duration: 0.1s;
-  
     margin-bottom: 60px;
     margin-right: 10px;
     width: 23%;
@@ -702,13 +703,16 @@
     height: 141px;
     object-fit: cover;
   }
+  .carda1, .carda2, .carda3, .carda4 {
+    width: 95%; 
+  }
   
   }
   /* Footer */
   
   footer{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .bloc-footer{
     background: #F2F2F2;
